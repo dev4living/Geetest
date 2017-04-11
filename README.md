@@ -73,7 +73,7 @@ class ExampleController extends Controller
      * @param Request $request
      */
     public function postValidateOther(Request $request) {
-        dd(Geetest::validate($request));
+        dd(\Geetest::validate($request));
     }
 }
 ```
