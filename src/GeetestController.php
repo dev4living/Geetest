@@ -43,6 +43,6 @@ class GeetestController extends Controller
      * @return mixed
      */
     public function getGeetest() {
-        return Geetest::generate(request());
+        return \Geetest::generate(request());
     }
 }

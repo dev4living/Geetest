@@ -39,7 +39,7 @@ return [
     // 极验 KEY
     'geetest_key'       => env('GEETEST_KEY'),
     // 校验地址
-    'geetest_url'       => '／geetest',
+    'geetest_url'       => '/geetest',
     // 客户端错误提示
     'client_fail_alert' => '请正确完成验证码操作',
     // 服务端错误提示
