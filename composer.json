@@ -1,0 +1,20 @@
+{
+    "name": "protobia-alpha/geetest",
+    "description": "Laravel 极验验证封装",
+    "type": "library",
+    "license": "apache",
+    "authors": [
+        {
+            "name": "frowhy",
+            "email": "frowhy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProtobiaAlpha\\Geetest\\": "src/"
+        },
+        "files": [
+            "lib/class.geetestlib.php"
+        ]
+    }
+}
