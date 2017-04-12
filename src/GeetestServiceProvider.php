@@ -65,10 +65,10 @@ class GeetestServiceProvider extends ServiceProvider
                 "ip_address"  => $request->ip(),
             ];
             if (session()->get('gtserver') == 1) {
-                return GeetestLib::successValidate($geetest_challenge, $geetest_validate, $geetest_seccode,
+                return \Geetest::successValidate($geetest_challenge, $geetest_validate, $geetest_seccode,
                                                    $data);
             } else {
-                return GeetestLib::failValidate($geetest_challenge, $geetest_validate, $geetest_seccode);
+                return \Geetest::failValidate($geetest_challenge, $geetest_validate, $geetest_seccode);
             }
         });
         Blade::extend(function ($value) {
